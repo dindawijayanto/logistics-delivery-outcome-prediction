@@ -1,0 +1,7 @@
+Split,Operational Table,Total Shipments,Zero Records,One Record,Multiple Records,Mean Records,Median Records,Minimum Records,Maximum Records,P95 Records,P99 Records
+train,scan_events,1243617,0,0,1243617,5.49776257481202,5.0,2,18,9.0,10.0
+train,route_segments,1243617,0,436937,806680,1.7691523998144123,2.0,1,3,3.0,3.0
+train,invoices,1243617,0,1019512,224105,1.1802041946998152,1.0,1,2,2.0,2.0
+test,scan_events,362245,0,0,362245,5.5021656613617855,5.0,2,17,9.0,11.0
+test,route_segments,362245,0,126933,235312,1.770751839224834,2.0,1,3,3.0,3.0
+test,invoices,362245,0,297032,65213,1.1800245690071636,1.0,1,2,2.0,2.0

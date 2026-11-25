@@ -1,0 +1,11 @@
+Table,Key Columns,Train_Valid,Test_Valid,Total_Duplicate_Train,Total_Null_Train
+couriers,courier_id,True,True,0,0
+customers,customer_id,True,True,0,0
+hubs,hub_id,True,True,0,0
+invoices,invoice_id,True,True,0,0
+promotions,promo_id,True,True,0,0
+route_segments,segment_id,True,True,0,0
+route_segments,shipment_id + urutan,True,True,0,0
+scan_events,event_id,True,True,0,0
+service_packages,package_id,True,True,0,0
+shipments,shipment_id,True,True,0,0

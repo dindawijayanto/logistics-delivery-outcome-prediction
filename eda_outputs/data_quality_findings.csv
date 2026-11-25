@@ -1,0 +1,13 @@
+Category,Table,Finding,Affected Records,Status,Recommendation
+Foreign Key,shipments,Referensi tidak ditemukan pada promotions,1032408,Perlu Investigasi,Validasi identifier dan sumber relasi
+Foreign Key,shipments,Referensi tidak ditemukan pada promotions,300502,Perlu Investigasi,Validasi identifier dan sumber relasi
+Missing Values,shipments,Missing values pada volume_l,37012,Perlu Evaluasi,Analisis pola missingness sebelum menentukan imputasi
+Missing Values,invoices,Missing values pada discount,622355,Prioritas Tinggi,Analisis pola missingness sebelum menentukan imputasi
+Missing Values,route_segments,Missing values pada durasi_jam,43968,Perlu Evaluasi,Analisis pola missingness sebelum menentukan imputasi
+Missing Values,customers,Missing values pada credit_score,11429,Perlu Evaluasi,Analisis pola missingness sebelum menentukan imputasi
+Missing Values,couriers,Missing values pada courier_score,256,Perlu Evaluasi,Analisis pola missingness sebelum menentukan imputasi
+Missing Values,shipments,Missing values pada volume_l,11013,Perlu Evaluasi,Analisis pola missingness sebelum menentukan imputasi
+Missing Values,invoices,Missing values pada discount,181088,Prioritas Tinggi,Analisis pola missingness sebelum menentukan imputasi
+Missing Values,route_segments,Missing values pada durasi_jam,12824,Perlu Evaluasi,Analisis pola missingness sebelum menentukan imputasi
+Missing Values,customers,Missing values pada credit_score,11429,Perlu Evaluasi,Analisis pola missingness sebelum menentukan imputasi
+Missing Values,couriers,Missing values pada courier_score,256,Perlu Evaluasi,Analisis pola missingness sebelum menentukan imputasi

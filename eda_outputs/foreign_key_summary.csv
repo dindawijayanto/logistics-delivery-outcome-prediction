@@ -1,0 +1,13 @@
+Child Table,Foreign Key,Parent Table,Train_Orphans,Test_Orphans,Train_Nulls,Test_Nulls
+couriers,hub_id,hubs,0,0,0,0
+invoices,customer_id,customers,0,0,0,0
+invoices,shipment_id,shipments,0,0,0,0
+route_segments,segmen_hub_id,hubs,0,0,0,0
+route_segments,shipment_id,shipments,0,0,0,0
+scan_events,hub_id,hubs,0,0,0,0
+scan_events,shipment_id,shipments,0,0,0,0
+shipments,courier_id,couriers,0,0,0,0
+shipments,customer_id,customers,0,0,0,0
+shipments,hub_id,hubs,0,0,0,0
+shipments,package_id,service_packages,0,0,0,0
+shipments,promo_id,promotions,1032408,300502,0,0

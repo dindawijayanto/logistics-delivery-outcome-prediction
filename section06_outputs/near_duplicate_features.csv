@@ -1,0 +1,9 @@
+Feature 1,Feature 2,Correlation,Absolute Correlation
+iv_count,iv_n_klaim,1.0,1.0
+x_address_risk,x_address_notes,1.0,1.0
+iv_penalty_count,iv_n_gagal,1.0,1.0
+iv_discount_missing,iv_n_langganan,1.0,1.0
+iv_discount_missing,iv_n_pengiriman,-0.9999999999999997,0.9999999999999997
+iv_n_pengiriman,iv_n_langganan,-0.9999999999999997,0.9999999999999997
+distance_km,rt_distance_sum,0.9999999990967657,0.9999999990967657
+iv_amount_sum,iv_tax_sum,0.9995478033810775,0.9995478033810775

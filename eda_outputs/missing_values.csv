@@ -1,0 +1,11 @@
+Split,Table,Category,Column,Data Type,Null Count,Blank Count,Missing Count,Missing Percentage,Approx Unique,Unique Ratio
+train,invoices,Operational Transaction,discount,Float64,622355,0,622355,42.402784723537565,231,0.0001573867530772176
+test,invoices,Operational Transaction,discount,Float64,181088,0,181088,42.36392815200558,177,0.0004140757688474657
+test,shipments,Main Transaction,volume_l,Float64,11013,0,11013,3.04020759430772,1119,0.003089069552374774
+train,shipments,Main Transaction,volume_l,Float64,37012,0,37012,2.976157450404747,1393,0.0011201197796427678
+test,route_segments,Operational Transaction,durasi_jam,Float64,12824,0,12824,1.9992329829790816,9237,0.01440027687443682
+train,route_segments,Operational Transaction,durasi_jam,Float64,43968,0,43968,1.9984110159861974,9928,0.004512423709677712
+test,customers,Master Data,credit_score,Float64,11429,0,11429,1.9916666811886914,553406,0.9643890903577821
+train,customers,Master Data,credit_score,Float64,11429,0,11429,1.9916666811886914,553406,0.9643890903577821
+train,couriers,Master Data,courier_score,Float64,256,0,256,1.075359153154667,6,0.0002520373015206251
+test,couriers,Master Data,courier_score,Float64,256,0,256,1.075359153154667,6,0.0002520373015206251

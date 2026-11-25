@@ -1,0 +1,163 @@
+feature,source_assumption,scenario_A,scenario_B,scenario_C,reason,matched_rule
+berat_volumetrik,unknown,unknown,unknown,unknown,Belum memiliki aturan ketersediaan. Perlu pemeriksaan manual.,
+channel,unknown,unknown,unknown,unknown,Belum memiliki aturan ketersediaan. Perlu pemeriksaan manual.,
+coupon_count,unknown,unknown,unknown,unknown,Belum memiliki aturan ketersediaan. Perlu pemeriksaan manual.,
+cour_contract_type,couriers,conditional,available,available,Profil kurir dapat digunakan setelah kurir ditetapkan; skor historis harus bebas dari informasi masa depan.,^cour_
+cour_courier_score,couriers,conditional,available,available,Profil kurir dapat digunakan setelah kurir ditetapkan; skor historis harus bebas dari informasi masa depan.,^cour_
+cour_experience_years,couriers,conditional,available,available,Profil kurir dapat digunakan setelah kurir ditetapkan; skor historis harus bebas dari informasi masa depan.,^cour_
+cour_hub_id,couriers,conditional,available,available,Profil kurir dapat digunakan setelah kurir ditetapkan; skor historis harus bebas dari informasi masa depan.,^cour_
+cour_jarak_domisili_hub_km,couriers,conditional,available,available,Profil kurir dapat digunakan setelah kurir ditetapkan; skor historis harus bebas dari informasi masa depan.,^cour_
+cour_kapasitas_muatan_kg,couriers,conditional,available,available,Profil kurir dapat digunakan setelah kurir ditetapkan; skor historis harus bebas dari informasi masa depan.,^cour_
+cour_sertifikasi_hazardous,couriers,conditional,available,available,Profil kurir dapat digunakan setelah kurir ditetapkan; skor historis harus bebas dari informasi masa depan.,^cour_
+cour_shift_code,shipment_assignment,conditional,available,available,Penugasan kurir dapat terjadi setelah shipment dibuat.,^(courier_id|cour_shift_code)$
+cour_training_level,couriers,conditional,available,available,Profil kurir dapat digunakan setelah kurir ditetapkan; skor historis harus bebas dari informasi masa depan.,^cour_
+cour_vehicle_type,couriers,conditional,available,available,Profil kurir dapat digunakan setelah kurir ditetapkan; skor historis harus bebas dari informasi masa depan.,^cour_
+courier_id,shipment_assignment,conditional,available,available,Penugasan kurir dapat terjadi setelah shipment dibuat.,^(courier_id|cour_shift_code)$
+cust_address_quality,customers,conditional,available,available,"Profil pelanggan dapat tersedia sejak awal, tetapi fitur historis harus dihitung hanya dari data sebelum shipment.",^cust_
+cust_complaint_index,customers,conditional,available,available,"Profil pelanggan dapat tersedia sejak awal, tetapi fitur historis harus dihitung hanya dari data sebelum shipment.",^cust_
+cust_credit_score,customers,conditional,available,available,"Profil pelanggan dapat tersedia sejak awal, tetapi fitur historis harus dihitung hanya dari data sebelum shipment.",^cust_
+cust_is_business,customers,conditional,available,available,"Profil pelanggan dapat tersedia sejak awal, tetapi fitur historis harus dihitung hanya dari data sebelum shipment.",^cust_
+cust_is_verified,customers,conditional,available,available,"Profil pelanggan dapat tersedia sejak awal, tetapi fitur historis harus dihitung hanya dari data sebelum shipment.",^cust_
+cust_kota_tipe,customers,conditional,available,available,"Profil pelanggan dapat tersedia sejak awal, tetapi fitur historis harus dihitung hanya dari data sebelum shipment.",^cust_
+cust_loyalty_tier,customers,conditional,available,available,"Profil pelanggan dapat tersedia sejak awal, tetapi fitur historis harus dihitung hanya dari data sebelum shipment.",^cust_
+cust_metode_notifikasi,customers,conditional,available,available,"Profil pelanggan dapat tersedia sejak awal, tetapi fitur historis harus dihitung hanya dari data sebelum shipment.",^cust_
+cust_preferred_payment,customers,conditional,available,available,"Profil pelanggan dapat tersedia sejak awal, tetapi fitur historis harus dihitung hanya dari data sebelum shipment.",^cust_
+cust_region,customers,conditional,available,available,"Profil pelanggan dapat tersedia sejak awal, tetapi fitur historis harus dihitung hanya dari data sebelum shipment.",^cust_
+cust_segment,customers,conditional,available,available,"Profil pelanggan dapat tersedia sejak awal, tetapi fitur historis harus dihitung hanya dari data sebelum shipment.",^cust_
+cust_tagihan_langganan,customers,conditional,available,available,"Profil pelanggan dapat tersedia sejak awal, tetapi fitur historis harus dihitung hanya dari data sebelum shipment.",^cust_
+cust_tenure_months,customers,conditional,available,available,"Profil pelanggan dapat tersedia sejak awal, tetapi fitur historis harus dihitung hanya dari data sebelum shipment.",^cust_
+customer_id,shipment_reference,conditional,available,available,Identitas entitas harus sudah diketahui pada saat prediksi.,^(customer_id|hub_id)$
+declared_value,shipment,available,available,available,Atribut dasar pengiriman yang diasumsikan tercatat saat shipment dibuat.,^(declared_value|distance_km|weight_kg|qty_items|volume_l|is_cod|flag_alamat_baru|ship_month|ship_hour|ship_dow|package_id|promo_id)$
+dest_region,unknown,unknown,unknown,unknown,Belum memiliki aturan ketersediaan. Perlu pemeriksaan manual.,
+distance_km,shipment,available,available,available,Atribut dasar pengiriman yang diasumsikan tercatat saat shipment dibuat.,^(declared_value|distance_km|weight_kg|qty_items|volume_l|is_cod|flag_alamat_baru|ship_month|ship_hour|ship_dow|package_id|promo_id)$
+faktor_muatan_internal,unknown,unknown,unknown,unknown,Belum memiliki aturan ketersediaan. Perlu pemeriksaan manual.,
+flag_alamat_baru,shipment,available,available,available,Atribut dasar pengiriman yang diasumsikan tercatat saat shipment dibuat.,^(declared_value|distance_km|weight_kg|qty_items|volume_l|is_cod|flag_alamat_baru|ship_month|ship_hour|ship_dow|package_id|promo_id)$
+fragility_flag,unknown,unknown,unknown,unknown,Belum memiliki aturan ketersediaan. Perlu pemeriksaan manual.,
+gift_wrap,unknown,unknown,unknown,unknown,Belum memiliki aturan ketersediaan. Perlu pemeriksaan manual.,
+goods_category,unknown,unknown,unknown,unknown,Belum memiliki aturan ketersediaan. Perlu pemeriksaan manual.,
+hub_automation_level,hubs,conditional,available,available,"Informasi hub bersifat relatif statis, tetapi hub yang relevan harus sudah diketahui.",^hub_
+hub_capacity_index,hubs,conditional,available,available,"Informasi hub bersifat relatif statis, tetapi hub yang relevan harus sudah diketahui.",^hub_
+hub_density_index,hubs,conditional,available,available,"Informasi hub bersifat relatif statis, tetapi hub yang relevan harus sudah diketahui.",^hub_
+hub_hub_type,hubs,conditional,available,available,"Informasi hub bersifat relatif statis, tetapi hub yang relevan harus sudah diketahui.",^hub_
+hub_id,shipment_reference,conditional,available,available,Identitas entitas harus sudah diketahui pada saat prediksi.,^(customer_id|hub_id)$
+hub_jam_buka,hubs,conditional,available,available,"Informasi hub bersifat relatif statis, tetapi hub yang relevan harus sudah diketahui.",^hub_
+hub_jam_tutup,hubs,conditional,available,available,"Informasi hub bersifat relatif statis, tetapi hub yang relevan harus sudah diketahui.",^hub_
+hub_luas_gudang_m2,hubs,conditional,available,available,"Informasi hub bersifat relatif statis, tetapi hub yang relevan harus sudah diketahui.",^hub_
+hub_region,hubs,conditional,available,available,"Informasi hub bersifat relatif statis, tetapi hub yang relevan harus sudah diketahui.",^hub_
+indeks_rute_sekunder,unknown,unknown,unknown,unknown,Belum memiliki aturan ketersediaan. Perlu pemeriksaan manual.,
+indeks_waktu_proses,unknown,unknown,unknown,unknown,Belum memiliki aturan ketersediaan. Perlu pemeriksaan manual.,
+insurance_opt,unknown,unknown,unknown,unknown,Belum memiliki aturan ketersediaan. Perlu pemeriksaan manual.,
+is_cod,shipment,available,available,available,Atribut dasar pengiriman yang diasumsikan tercatat saat shipment dibuat.,^(declared_value|distance_km|weight_kg|qty_items|volume_l|is_cod|flag_alamat_baru|ship_month|ship_hour|ship_dow|package_id|promo_id)$
+is_promo,unknown,unknown,unknown,unknown,Belum memiliki aturan ketersediaan. Perlu pemeriksaan manual.,
+iv_amount_klaim,invoices,unavailable,unavailable,conditional,Informasi klaim atau kompensasi berpotensi muncul setelah masalah pengiriman terjadi.,^(iv_.*(klaim|claim|refund|retur|hilang|rusak|kompensasi))$
+iv_amount_langganan,invoices,conditional,conditional,conditional,Waktu penerbitan invoice dan pembaruan status pembayaran perlu diverifikasi.,^iv_
+iv_amount_max,invoices,conditional,conditional,conditional,Waktu penerbitan invoice dan pembaruan status pembayaran perlu diverifikasi.,^iv_
+iv_amount_mean,invoices,conditional,conditional,conditional,Waktu penerbitan invoice dan pembaruan status pembayaran perlu diverifikasi.,^iv_
+iv_amount_pengiriman,invoices,conditional,conditional,conditional,Waktu penerbitan invoice dan pembaruan status pembayaran perlu diverifikasi.,^iv_
+iv_amount_sum,invoices,conditional,conditional,conditional,Waktu penerbitan invoice dan pembaruan status pembayaran perlu diverifikasi.,^iv_
+iv_count,invoices,conditional,conditional,conditional,Waktu penerbitan invoice dan pembaruan status pembayaran perlu diverifikasi.,^iv_
+iv_days_max,invoices,conditional,conditional,conditional,Waktu penerbitan invoice dan pembaruan status pembayaran perlu diverifikasi.,^iv_
+iv_days_mean,invoices,conditional,conditional,conditional,Waktu penerbitan invoice dan pembaruan status pembayaran perlu diverifikasi.,^iv_
+iv_discount_missing,invoices,conditional,conditional,conditional,Waktu penerbitan invoice dan pembaruan status pembayaran perlu diverifikasi.,^iv_
+iv_discount_sum,invoices,conditional,conditional,conditional,Waktu penerbitan invoice dan pembaruan status pembayaran perlu diverifikasi.,^iv_
+iv_n_gagal,invoices,conditional,conditional,conditional,Waktu penerbitan invoice dan pembaruan status pembayaran perlu diverifikasi.,^iv_
+iv_n_klaim,invoices,unavailable,unavailable,conditional,Informasi klaim atau kompensasi berpotensi muncul setelah masalah pengiriman terjadi.,^(iv_.*(klaim|claim|refund|retur|hilang|rusak|kompensasi))$
+iv_n_langganan,invoices,conditional,conditional,conditional,Waktu penerbitan invoice dan pembaruan status pembayaran perlu diverifikasi.,^iv_
+iv_n_lunas,invoices,conditional,conditional,conditional,Waktu penerbitan invoice dan pembaruan status pembayaran perlu diverifikasi.,^iv_
+iv_n_pengiriman,invoices,conditional,conditional,conditional,Waktu penerbitan invoice dan pembaruan status pembayaran perlu diverifikasi.,^iv_
+iv_n_tertunda,invoices,conditional,conditional,conditional,Waktu penerbitan invoice dan pembaruan status pembayaran perlu diverifikasi.,^iv_
+iv_penalty_count,invoices,conditional,conditional,conditional,Waktu penerbitan invoice dan pembaruan status pembayaran perlu diverifikasi.,^iv_
+iv_tax_sum,invoices,conditional,conditional,conditional,Waktu penerbitan invoice dan pembaruan status pembayaran perlu diverifikasi.,^iv_
+jumlah_catatan,notes_or_complaints,conditional,conditional,conditional,Catatan atau komplain dapat dibuat sebelum maupun setelah masalah pengiriman.,^(jumlah_catatan|.*complaint.*|.*catatan.*)$
+kota_asal,unknown,unknown,unknown,unknown,Belum memiliki aturan ketersediaan. Perlu pemeriksaan manual.,
+kota_tujuan,unknown,unknown,unknown,unknown,Belum memiliki aturan ketersediaan. Perlu pemeriksaan manual.,
+log_declared_value,unknown,unknown,unknown,unknown,Belum memiliki aturan ketersediaan. Perlu pemeriksaan manual.,
+order_to_ship_hours,unknown,unknown,unknown,unknown,Belum memiliki aturan ketersediaan. Perlu pemeriksaan manual.,
+package_id,shipment,available,available,available,Atribut dasar pengiriman yang diasumsikan tercatat saat shipment dibuat.,^(declared_value|distance_km|weight_kg|qty_items|volume_l|is_cod|flag_alamat_baru|ship_month|ship_hour|ship_dow|package_id|promo_id)$
+pickup_type,unknown,unknown,unknown,unknown,Belum memiliki aturan ketersediaan. Perlu pemeriksaan manual.,
+pkg_biaya_dasar,service_packages,conditional,available,available,Informasi paket layanan diasumsikan tersedia ketika layanan dipilih.,^(pkg_|package_)
+pkg_cod_allowed,service_packages,conditional,available,available,Informasi paket layanan diasumsikan tersedia ketika layanan dipilih.,^(pkg_|package_)
+pkg_cost_multiplier,service_packages,conditional,available,available,Informasi paket layanan diasumsikan tersedia ketika layanan dipilih.,^(pkg_|package_)
+pkg_estimasi_hari,service_packages,conditional,available,available,Informasi paket layanan diasumsikan tersedia ketika layanan dipilih.,^(pkg_|package_)
+pkg_fragile_score,service_packages,conditional,available,available,Informasi paket layanan diasumsikan tersedia ketika layanan dipilih.,^(pkg_|package_)
+pkg_handling_class,service_packages,conditional,available,available,Informasi paket layanan diasumsikan tersedia ketika layanan dipilih.,^(pkg_|package_)
+pkg_insurance_default,service_packages,conditional,available,available,Informasi paket layanan diasumsikan tersedia ketika layanan dipilih.,^(pkg_|package_)
+pkg_max_weight_kg,service_packages,conditional,available,available,Informasi paket layanan diasumsikan tersedia ketika layanan dipilih.,^(pkg_|package_)
+pkg_speed_class,service_packages,conditional,available,available,Informasi paket layanan diasumsikan tersedia ketika layanan dipilih.,^(pkg_|package_)
+prioritas_pengiriman,unknown,unknown,unknown,unknown,Belum memiliki aturan ketersediaan. Perlu pemeriksaan manual.,
+promo_bulan_akhir,promotions,conditional,available,available,Informasi promosi diasumsikan tersedia ketika promosi dipilih.,^(promo_|promotion_)
+promo_bulan_mulai,promotions,conditional,available,available,Informasi promosi diasumsikan tersedia ketika promosi dipilih.,^(promo_|promotion_)
+promo_diskon_persen,promotions,conditional,available,available,Informasi promosi diasumsikan tersedia ketika promosi dipilih.,^(promo_|promotion_)
+promo_id,shipment,available,available,available,Atribut dasar pengiriman yang diasumsikan tercatat saat shipment dibuat.,^(declared_value|distance_km|weight_kg|qty_items|volume_l|is_cod|flag_alamat_baru|ship_month|ship_hour|ship_dow|package_id|promo_id)$
+promo_nama_promo,promotions,conditional,available,available,Informasi promosi diasumsikan tersedia ketika promosi dipilih.,^(promo_|promotion_)
+promo_tipe_promo,promotions,conditional,available,available,Informasi promosi diasumsikan tersedia ketika promosi dipilih.,^(promo_|promotion_)
+qty_items,shipment,available,available,available,Atribut dasar pengiriman yang diasumsikan tercatat saat shipment dibuat.,^(declared_value|distance_km|weight_kg|qty_items|volume_l|is_cod|flag_alamat_baru|ship_month|ship_hour|ship_dow|package_id|promo_id)$
+r_duration_estimation,unknown,unknown,unknown,unknown,Belum memiliki aturan ketersediaan. Perlu pemeriksaan manual.,
+r_hub_load,unknown,unknown,unknown,unknown,Belum memiliki aturan ketersediaan. Perlu pemeriksaan manual.,
+r_value_per_kg,unknown,unknown,unknown,unknown,Belum memiliki aturan ketersediaan. Perlu pemeriksaan manual.,
+r_volumetric_weight,unknown,unknown,unknown,unknown,Belum memiliki aturan ketersediaan. Perlu pemeriksaan manual.,
+rt_cost_mean,route_segments,unavailable,conditional,conditional,Segmen dan durasi aktual rute dapat terbentuk selama pengiriman; rute terencana perlu dibedakan dari rute aktual.,^rt_
+rt_cost_sum,route_segments,unavailable,conditional,conditional,Segmen dan durasi aktual rute dapat terbentuk selama pengiriman; rute terencana perlu dibedakan dari rute aktual.,^rt_
+rt_count,route_segments,unavailable,conditional,conditional,Segmen dan durasi aktual rute dapat terbentuk selama pengiriman; rute terencana perlu dibedakan dari rute aktual.,^rt_
+rt_distance_darat,route_segments,unavailable,conditional,conditional,Segmen dan durasi aktual rute dapat terbentuk selama pengiriman; rute terencana perlu dibedakan dari rute aktual.,^rt_
+rt_distance_kereta,route_segments,unavailable,conditional,conditional,Segmen dan durasi aktual rute dapat terbentuk selama pengiriman; rute terencana perlu dibedakan dari rute aktual.,^rt_
+rt_distance_laut,route_segments,unavailable,conditional,conditional,Segmen dan durasi aktual rute dapat terbentuk selama pengiriman; rute terencana perlu dibedakan dari rute aktual.,^rt_
+rt_distance_max,route_segments,unavailable,conditional,conditional,Segmen dan durasi aktual rute dapat terbentuk selama pengiriman; rute terencana perlu dibedakan dari rute aktual.,^rt_
+rt_distance_mean,route_segments,unavailable,conditional,conditional,Segmen dan durasi aktual rute dapat terbentuk selama pengiriman; rute terencana perlu dibedakan dari rute aktual.,^rt_
+rt_distance_sum,route_segments,unavailable,conditional,conditional,Segmen dan durasi aktual rute dapat terbentuk selama pengiriman; rute terencana perlu dibedakan dari rute aktual.,^rt_
+rt_distance_udara,route_segments,unavailable,conditional,conditional,Segmen dan durasi aktual rute dapat terbentuk selama pengiriman; rute terencana perlu dibedakan dari rute aktual.,^rt_
+rt_duration_darat,route_segments,unavailable,conditional,conditional,Segmen dan durasi aktual rute dapat terbentuk selama pengiriman; rute terencana perlu dibedakan dari rute aktual.,^rt_
+rt_duration_kereta,route_segments,unavailable,conditional,conditional,Segmen dan durasi aktual rute dapat terbentuk selama pengiriman; rute terencana perlu dibedakan dari rute aktual.,^rt_
+rt_duration_laut,route_segments,unavailable,conditional,conditional,Segmen dan durasi aktual rute dapat terbentuk selama pengiriman; rute terencana perlu dibedakan dari rute aktual.,^rt_
+rt_duration_max,route_segments,unavailable,conditional,conditional,Segmen dan durasi aktual rute dapat terbentuk selama pengiriman; rute terencana perlu dibedakan dari rute aktual.,^rt_
+rt_duration_mean,route_segments,unavailable,conditional,conditional,Segmen dan durasi aktual rute dapat terbentuk selama pengiriman; rute terencana perlu dibedakan dari rute aktual.,^rt_
+rt_duration_missing,route_segments,unavailable,conditional,conditional,Segmen dan durasi aktual rute dapat terbentuk selama pengiriman; rute terencana perlu dibedakan dari rute aktual.,^rt_
+rt_duration_sum,route_segments,unavailable,conditional,conditional,Segmen dan durasi aktual rute dapat terbentuk selama pengiriman; rute terencana perlu dibedakan dari rute aktual.,^rt_
+rt_duration_udara,route_segments,unavailable,conditional,conditional,Segmen dan durasi aktual rute dapat terbentuk selama pengiriman; rute terencana perlu dibedakan dari rute aktual.,^rt_
+rt_first_mode,route_segments,unavailable,conditional,conditional,Segmen dan durasi aktual rute dapat terbentuk selama pengiriman; rute terencana perlu dibedakan dari rute aktual.,^rt_
+rt_last_mode,route_segments,unavailable,conditional,conditional,Segmen dan durasi aktual rute dapat terbentuk selama pengiriman; rute terencana perlu dibedakan dari rute aktual.,^rt_
+rt_n_darat,route_segments,unavailable,conditional,conditional,Segmen dan durasi aktual rute dapat terbentuk selama pengiriman; rute terencana perlu dibedakan dari rute aktual.,^rt_
+rt_n_kereta,route_segments,unavailable,conditional,conditional,Segmen dan durasi aktual rute dapat terbentuk selama pengiriman; rute terencana perlu dibedakan dari rute aktual.,^rt_
+rt_n_laut,route_segments,unavailable,conditional,conditional,Segmen dan durasi aktual rute dapat terbentuk selama pengiriman; rute terencana perlu dibedakan dari rute aktual.,^rt_
+rt_n_udara,route_segments,unavailable,conditional,conditional,Segmen dan durasi aktual rute dapat terbentuk selama pengiriman; rute terencana perlu dibedakan dari rute aktual.,^rt_
+rt_speed_mean,route_segments,unavailable,conditional,conditional,Segmen dan durasi aktual rute dapat terbentuk selama pengiriman; rute terencana perlu dibedakan dari rute aktual.,^rt_
+rt_unique_hubs,route_segments,unavailable,conditional,conditional,Segmen dan durasi aktual rute dapat terbentuk selama pengiriman; rute terencana perlu dibedakan dari rute aktual.,^rt_
+rt_unique_modes,route_segments,unavailable,conditional,conditional,Segmen dan durasi aktual rute dapat terbentuk selama pengiriman; rute terencana perlu dibedakan dari rute aktual.,^rt_
+sc_count,scan_events,unavailable,conditional,conditional,Agregasi scan hanya boleh digunakan jika seluruh event terjadi sebelum waktu prediksi.,^sc_
+sc_gap_max,scan_events,unavailable,conditional,conditional,Agregasi scan hanya boleh digunakan jika seluruh event terjadi sebelum waktu prediksi.,^sc_
+sc_gap_mean,scan_events,unavailable,conditional,conditional,Agregasi scan hanya boleh digunakan jika seluruh event terjadi sebelum waktu prediksi.,^sc_
+sc_gap_median,scan_events,unavailable,conditional,conditional,Agregasi scan hanya boleh digunakan jika seluruh event terjadi sebelum waktu prediksi.,^sc_
+sc_gap_std,scan_events,unavailable,conditional,conditional,Agregasi scan hanya boleh digunakan jika seluruh event terjadi sebelum waktu prediksi.,^sc_
+sc_gap_sum,scan_events,unavailable,conditional,conditional,Agregasi scan hanya boleh digunakan jika seluruh event terjadi sebelum waktu prediksi.,^sc_
+sc_manual_count,scan_events,unavailable,conditional,conditional,Agregasi scan hanya boleh digunakan jika seluruh event terjadi sebelum waktu prediksi.,^sc_
+sc_manual_rate,scan_events,unavailable,conditional,conditional,Agregasi scan hanya boleh digunakan jika seluruh event terjadi sebelum waktu prediksi.,^sc_
+sc_n_keluar_hub,scan_events,unavailable,conditional,conditional,Agregasi scan hanya boleh digunakan jika seluruh event terjadi sebelum waktu prediksi.,^sc_
+sc_n_pickup,scan_events,unavailable,conditional,conditional,Agregasi scan hanya boleh digunakan jika seluruh event terjadi sebelum waktu prediksi.,^sc_
+sc_n_selesai,scan_events,unavailable,conditional,conditional,Status penyelesaian atau percobaan pengantaran dapat merepresentasikan kejadian setelah shipment dibuat.,^(sc_n_selesai|sc_.*(delivered|selesai|terkirim|gagal_antar|attempt|percobaan))$
+sc_n_sortasi,scan_events,unavailable,conditional,conditional,Agregasi scan hanya boleh digunakan jika seluruh event terjadi sebelum waktu prediksi.,^sc_
+sc_n_transit,scan_events,unavailable,conditional,conditional,Agregasi scan hanya boleh digunakan jika seluruh event terjadi sebelum waktu prediksi.,^sc_
+sc_n_upaya_antar,scan_events,unavailable,conditional,conditional,Agregasi scan hanya boleh digunakan jika seluruh event terjadi sebelum waktu prediksi.,^sc_
+sc_quality_mean,scan_events,unavailable,conditional,conditional,Agregasi scan hanya boleh digunakan jika seluruh event terjadi sebelum waktu prediksi.,^sc_
+sc_quality_median,scan_events,unavailable,conditional,conditional,Agregasi scan hanya boleh digunakan jika seluruh event terjadi sebelum waktu prediksi.,^sc_
+sc_quality_min,scan_events,unavailable,conditional,conditional,Agregasi scan hanya boleh digunakan jika seluruh event terjadi sebelum waktu prediksi.,^sc_
+sc_quality_std,scan_events,unavailable,conditional,conditional,Agregasi scan hanya boleh digunakan jika seluruh event terjadi sebelum waktu prediksi.,^sc_
+sc_unique_devices,scan_events,unavailable,conditional,conditional,Agregasi scan hanya boleh digunakan jika seluruh event terjadi sebelum waktu prediksi.,^sc_
+sc_unique_event,scan_events,unavailable,conditional,conditional,Agregasi scan hanya boleh digunakan jika seluruh event terjadi sebelum waktu prediksi.,^sc_
+sc_unique_hubs,scan_events,unavailable,conditional,conditional,Agregasi scan hanya boleh digunakan jika seluruh event terjadi sebelum waktu prediksi.,^sc_
+ship_dow,shipment,available,available,available,Atribut dasar pengiriman yang diasumsikan tercatat saat shipment dibuat.,^(declared_value|distance_km|weight_kg|qty_items|volume_l|is_cod|flag_alamat_baru|ship_month|ship_hour|ship_dow|package_id|promo_id)$
+ship_hour,shipment,available,available,available,Atribut dasar pengiriman yang diasumsikan tercatat saat shipment dibuat.,^(declared_value|distance_km|weight_kg|qty_items|volume_l|is_cod|flag_alamat_baru|ship_month|ship_hour|ship_dow|package_id|promo_id)$
+ship_month,shipment,available,available,available,Atribut dasar pengiriman yang diasumsikan tercatat saat shipment dibuat.,^(declared_value|distance_km|weight_kg|qty_items|volume_l|is_cod|flag_alamat_baru|ship_month|ship_hour|ship_dow|package_id|promo_id)$
+skor_kualitas_cek,unknown,unknown,unknown,unknown,Belum memiliki aturan ketersediaan. Perlu pemeriksaan manual.,
+skor_prioritas_kirim,unknown,unknown,unknown,unknown,Belum memiliki aturan ketersediaan. Perlu pemeriksaan manual.,
+varian_cuaca_rute,unknown,unknown,unknown,unknown,Belum memiliki aturan ketersediaan. Perlu pemeriksaan manual.,
+volume_l,shipment,available,available,available,Atribut dasar pengiriman yang diasumsikan tercatat saat shipment dibuat.,^(declared_value|distance_km|weight_kg|qty_items|volume_l|is_cod|flag_alamat_baru|ship_month|ship_hour|ship_dow|package_id|promo_id)$
+weight_kg,shipment,available,available,available,Atribut dasar pengiriman yang diasumsikan tercatat saat shipment dibuat.,^(declared_value|distance_km|weight_kg|qty_items|volume_l|is_cod|flag_alamat_baru|ship_month|ship_hour|ship_dow|package_id|promo_id)$
+x_address_notes,unknown,unknown,unknown,unknown,Belum memiliki aturan ketersediaan. Perlu pemeriksaan manual.,
+x_address_risk,unknown,unknown,unknown,unknown,Belum memiliki aturan ketersediaan. Perlu pemeriksaan manual.,
+x_distance_fragility,unknown,unknown,unknown,unknown,Belum memiliki aturan ketersediaan. Perlu pemeriksaan manual.,
+x_distance_route_complexity,unknown,unknown,unknown,unknown,Belum memiliki aturan ketersediaan. Perlu pemeriksaan manual.,
+x_fragility,unknown,unknown,unknown,unknown,Belum memiliki aturan ketersediaan. Perlu pemeriksaan manual.,
+x_hub_load_duration,unknown,unknown,unknown,unknown,Belum memiliki aturan ketersediaan. Perlu pemeriksaan manual.,
+x_route_distance_difference,unknown,unknown,unknown,unknown,Belum memiliki aturan ketersediaan. Perlu pemeriksaan manual.,
+x_value_insurance,unknown,unknown,unknown,unknown,Belum memiliki aturan ketersediaan. Perlu pemeriksaan manual.,
+x_weight_fragility,unknown,unknown,unknown,unknown,Belum memiliki aturan ketersediaan. Perlu pemeriksaan manual.,

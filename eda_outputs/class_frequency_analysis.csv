@@ -1,0 +1,22 @@
+Operational Table,status_penanganan,Shipments,Mean Records,Median Records,P90 Records,Maximum Records
+scan_events,gagal_antar_awal,124341,5.511488567729067,5.0,8.0,16
+scan_events,rusak_perjalanan,61942,5.5159019728132765,5.0,8.0,15
+scan_events,normal,473531,5.497587275173115,5.0,8.0,18
+scan_events,retur_pengirim,87740,5.4994757237292,5.0,8.0,16
+scan_events,klaim_hilang,37656,5.5058954748247295,5.0,8.0,18
+scan_events,tertunda_operasional,185496,5.471223099150386,5.0,8.0,18
+scan_events,konfirmasi_alamat,272911,5.50406176372517,5.0,8.0,17
+route_segments,normal,473531,1.759016833111243,2.0,3.0,3
+route_segments,konfirmasi_alamat,272911,1.7657075017130126,2.0,3.0,3
+route_segments,retur_pengirim,87740,1.753385001139731,2.0,3.0,3
+route_segments,gagal_antar_awal,124341,1.732582173217201,2.0,3.0,3
+route_segments,tertunda_operasional,185496,1.7532076163367405,2.0,3.0,3
+route_segments,rusak_perjalanan,61942,2.0194375383423204,2.0,3.0,3
+route_segments,klaim_hilang,37656,1.7459103462927554,2.0,3.0,3
+invoices,retur_pengirim,87740,1.372372919990882,1.0,2.0,2
+invoices,rusak_perjalanan,61942,1.1522391915017274,1.0,2.0,2
+invoices,klaim_hilang,37656,1.3241448905884852,1.0,2.0,2
+invoices,konfirmasi_alamat,272911,1.1618842772918643,1.0,2.0,2
+invoices,normal,473531,1.162618709229174,1.0,2.0,2
+invoices,tertunda_operasional,185496,1.1620196661922628,1.0,2.0,2
+invoices,gagal_antar_awal,124341,1.1492508504837504,1.0,2.0,2

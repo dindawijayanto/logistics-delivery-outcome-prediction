@@ -1,0 +1,11 @@
+Split,Table,Feature,Total Records,Missing Records,Non-Missing Records,Missing Percentage
+train,shipments,volume_l,1243617,37012,1206605,2.976157450404747
+train,invoices,discount,1467722,622355,845367,42.402784723537565
+train,route_segments,durasi_jam,2200148,43968,2156180,1.9984110159861974
+train,customers,credit_score,573841,11429,562412,1.9916666811886914
+train,couriers,courier_score,23806,256,23550,1.075359153154667
+test,shipments,volume_l,362245,11013,351232,3.04020759430772
+test,invoices,discount,427458,181088,246370,42.36392815200558
+test,route_segments,durasi_jam,641446,12824,628622,1.9992329829790816
+test,customers,credit_score,573841,11429,562412,1.9916666811886914
+test,couriers,courier_score,23806,256,23550,1.075359153154667

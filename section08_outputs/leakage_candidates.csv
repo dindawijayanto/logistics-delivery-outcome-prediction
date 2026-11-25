@@ -1,0 +1,4 @@
+feature,risk_categories,scenario_A,scenario_B,scenario_C
+iv_amount_klaim,claim_or_compensation,unavailable,unavailable,conditional
+iv_n_klaim,claim_or_compensation,unavailable,unavailable,conditional
+sc_n_selesai,delivery_completion,unavailable,conditional,conditional

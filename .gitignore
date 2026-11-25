@@ -1,0 +1,21 @@
+
+# Dataset
+data/
+*.zip
+
+# Cache and processed data
+cache/
+*.parquet
+feats.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model checkpoints
+*.pth
+*.pt
+*.ckpt

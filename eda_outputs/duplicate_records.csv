@@ -1,0 +1,19 @@
+Split,Table,Total Rows,Unique Full Rows,Duplicate Excess,Duplicate Percentage
+train,shipments,1243617,1243617,0,0.0
+train,scan_events,6837111,6837111,0,0.0
+train,route_segments,2200148,2200148,0,0.0
+train,invoices,1467722,1467722,0,0.0
+train,customers,573841,573841,0,0.0
+train,couriers,23806,23806,0,0.0
+train,hubs,654,654,0,0.0
+train,service_packages,62,62,0,0.0
+train,promotions,34,34,0,0.0
+test,shipments,362245,362245,0,0.0
+test,scan_events,1993132,1993132,0,0.0
+test,route_segments,641446,641446,0,0.0
+test,invoices,427458,427458,0,0.0
+test,customers,573841,573841,0,0.0
+test,couriers,23806,23806,0,0.0
+test,hubs,654,654,0,0.0
+test,service_packages,62,62,0,0.0
+test,promotions,34,34,0,0.0

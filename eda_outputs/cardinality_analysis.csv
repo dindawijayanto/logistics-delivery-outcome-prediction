@@ -1,0 +1,117 @@
+Table,Column,Data Type,Approx Unique,Unique Ratio,Cardinality Group
+scan_events,event_id,String,6227701,0.9108673239325791,Identifier Candidate
+route_segments,segment_id,String,2224001,1.0108415433870812,Identifier Candidate
+invoices,invoice_id,String,1316390,0.8968932808801667,Identifier Candidate
+shipments,shipment_id,String,1185380,0.953171273792494,Identifier Candidate
+route_segments,shipment_id,String,1185380,0.5387728461903472,Identifier Candidate
+scan_events,shipment_id,String,1185380,0.17337439746114988,Identifier Candidate
+invoices,shipment_id,String,1185380,0.8076325080635162,Identifier Candidate
+customers,customer_id,String,609833,1.0627212067454226,Identifier Candidate
+customers,credit_score,Float64,553406,0.9643890903577821,Numerical / High Uniqueness
+shipments,customer_id,String,544272,0.4376524283601784,Identifier Candidate
+invoices,customer_id,String,544272,0.3708277180555991,Identifier Candidate
+customers,complaint_index,Float64,469436,0.8180593579057613,Numerical / High Uniqueness
+route_segments,biaya_segmen,Int64,40310,0.018321494735808682,Numerical / High Uniqueness
+couriers,courier_id,String,26721,1.1224481223221037,Identifier Candidate
+shipments,courier_id,String,26721,0.021486518759392965,Identifier Candidate
+shipments,distance_km,Float64,18020,0.014489991693584118,Numerical / High Uniqueness
+route_segments,jarak_segmen_km,Float64,17808,0.008094000949027066,Numerical / High Uniqueness
+route_segments,durasi_jam,Float64,9928,0.004512423709677712,Numerical / High Uniqueness
+scan_events,gap_hours,Float64,8792,0.001285923250331902,Numerical / High Uniqueness
+shipments,faktor_muatan_internal,Float64,8570,0.006891189168369362,Numerical / High Uniqueness
+shipments,indeks_rute_sekunder,Float64,8349,0.006713481723070688,Numerical / High Uniqueness
+shipments,varian_cuaca_rute,Float64,8349,0.006713481723070688,Numerical / High Uniqueness
+shipments,indeks_waktu_proses,Float64,8265,0.006645936811735446,Numerical / High Uniqueness
+shipments,skor_kualitas_cek,Float64,8245,0.006629854689988959,Numerical / High Uniqueness
+shipments,skor_prioritas_kirim,Float64,8062,0.00648270327600861,Numerical / High Uniqueness
+shipments,berat_volumetrik,Float64,7976,0.00641355015249872,Numerical / High Uniqueness
+shipments,weight_kg,Float64,3947,0.003173806726669063,Numerical / High Uniqueness
+shipments,declared_value,Int64,2730,0.002195209618395374,Numerical / High Uniqueness
+shipments,volume_l,Float64,1393,0.0011201197796427678,Numerical / High Uniqueness
+shipments,order_to_ship_hours,Float64,750,0.0006030795654932347,Numerical / High Uniqueness
+shipments,hub_id,String,669,0.0005379469724199653,Identifier Candidate
+scan_events,hub_id,String,669,9.784834559509126e-05,Identifier Candidate
+route_segments,segmen_hub_id,String,669,0.000304070453442223,Identifier Candidate
+hubs,hub_id,String,669,1.0229357798165137,Identifier Candidate
+couriers,hub_id,String,669,0.028102159119549695,Identifier Candidate
+hubs,density_index,Float64,640,0.9785932721712538,Numerical / High Uniqueness
+hubs,capacity_index,Float64,617,0.9434250764525994,Numerical / High Uniqueness
+couriers,jarak_domisili_hub_km,Float64,423,0.017768629757204068,Numerical / High Uniqueness
+hubs,luas_gudang_m2,Float64,254,0.38837920489296635,Numerical / High Uniqueness
+invoices,discount,Float64,231,0.0001573867530772176,Numerical / High Uniqueness
+invoices,amount,Int64,140,9.538591095588947e-05,Numerical / High Uniqueness
+invoices,tax,Int64,130,8.857263160189736e-05,Numerical / High Uniqueness
+shipments,package_id,String,63,5.065868350143171e-05,Identifier Candidate
+service_packages,package_id,String,63,1.0161290322580645,Identifier Candidate
+customers,tenure_months,Int64,61,0.00010630122281259094,Numerical / High Uniqueness
+shipments,kota_tujuan,String,46,3.698888001691839e-05,Medium Cardinality
+shipments,kota_asal,String,46,3.698888001691839e-05,Medium Cardinality
+invoices,days_to_pay,Int64,45,3.065975709296447e-05,Numerical / High Uniqueness
+service_packages,fragile_score,Float64,40,0.6451612903225806,Numerical / High Uniqueness
+service_packages,cost_multiplier,Float64,38,0.6129032258064516,Numerical / High Uniqueness
+shipments,promo_id,String,38,3.055603131832389e-05,Identifier Candidate
+promotions,promo_id,String,36,1.0588235294117647,Identifier Candidate
+service_packages,biaya_dasar,Int64,35,0.5645161290322581,Numerical / High Uniqueness
+promotions,diskon_persen,Float64,32,0.9411764705882353,Numerical / High Uniqueness
+shipments,ship_hour,Int64,24,1.929854609578351e-05,Numerical / High Uniqueness
+promotions,nama_promo,String,19,0.5588235294117647,Low Cardinality
+shipments,qty_items,Int64,18,1.4473909571837631e-05,Low Cardinality
+shipments,ship_month,Int64,12,9.649273047891755e-06,Low Cardinality
+invoices,issued_month,Int64,12,8.175935224790526e-06,Low Cardinality
+promotions,bulan_mulai,Int64,10,0.29411764705882354,Low Cardinality
+promotions,bulan_akhir,Int64,10,0.29411764705882354,Low Cardinality
+couriers,experience_years,Int64,9,0.00037805595228093756,Low Cardinality
+shipments,jumlah_catatan,Int64,8,6.432848698594503e-06,Low Cardinality
+shipments,status_penanganan,String,7,5.6287426112701905e-06,Low Cardinality
+service_packages,estimasi_hari,Int64,7,0.11290322580645161,Low Cardinality
+hubs,region,String,7,0.010703363914373088,Low Cardinality
+shipments,ship_dow,Int64,7,5.6287426112701905e-06,Low Cardinality
+customers,region,String,7,1.2198500978494043e-05,Low Cardinality
+shipments,dest_region,String,7,5.6287426112701905e-06,Low Cardinality
+shipments,coupon_count,Int64,6,4.8246365239458774e-06,Low Cardinality
+couriers,courier_score,Float64,6,0.0002520373015206251,Low Cardinality
+scan_events,event_type,String,6,8.775636376241369e-07,Low Cardinality
+service_packages,max_weight_kg,Int64,5,0.08064516129032258,Low Cardinality
+customers,address_quality,Int64,5,8.713214984638603e-06,Low Cardinality
+shipments,goods_category,String,5,4.020530436621564e-06,Low Cardinality
+hubs,automation_level,Int64,5,0.00764525993883792,Low Cardinality
+scan_events,scan_quality,Int64,5,7.313030313534473e-07,Low Cardinality
+customers,loyalty_tier,String,4,6.970571987710882e-06,Low Cardinality
+route_segments,moda,String,4,1.8180595123600776e-06,Low Cardinality
+shipments,channel,String,4,3.2164243492972513e-06,Low Cardinality
+scan_events,device_type,String,4,5.850424250827579e-07,Low Cardinality
+customers,segment,String,4,6.970571987710882e-06,Low Cardinality
+couriers,kapasitas_muatan_kg,Int64,4,0.0001680248676804167,Low Cardinality
+promotions,tipe_promo,String,4,0.11764705882352941,Low Cardinality
+invoices,payment_method,String,4,2.725311741596842e-06,Low Cardinality
+customers,metode_notifikasi,String,4,6.970571987710882e-06,Low Cardinality
+customers,preferred_payment,String,4,6.970571987710882e-06,Low Cardinality
+couriers,vehicle_type,String,4,0.0001680248676804167,Low Cardinality
+service_packages,handling_class,String,3,0.04838709677419355,Low Cardinality
+hubs,jam_tutup,Int64,3,0.0045871559633027525,Low Cardinality
+couriers,contract_type,String,3,0.00012601865076031254,Low Cardinality
+shipments,prioritas_pengiriman,Int64,3,2.4123182619729387e-06,Low Cardinality
+shipments,pickup_type,String,3,2.4123182619729387e-06,Low Cardinality
+route_segments,urutan,Int64,3,1.363544634270058e-06,Low Cardinality
+hubs,hub_type,String,3,0.0045871559633027525,Low Cardinality
+hubs,jam_buka,Int64,3,0.0045871559633027525,Low Cardinality
+invoices,payment_status,String,3,2.0439838061976316e-06,Low Cardinality
+couriers,training_level,Int64,3,0.00012601865076031254,Low Cardinality
+customers,kota_tipe,String,3,5.2279289907831615e-06,Low Cardinality
+invoices,invoice_type,String,3,2.0439838061976316e-06,Low Cardinality
+service_packages,speed_class,String,3,0.04838709677419355,Low Cardinality
+couriers,shift_code,String,3,0.00012601865076031254,Low Cardinality
+shipments,gift_wrap,Int64,2,1.6082121746486257e-06,Low Cardinality
+shipments,flag_alamat_baru,Int64,2,1.6082121746486257e-06,Low Cardinality
+shipments,is_promo,Int64,2,1.6082121746486257e-06,Low Cardinality
+shipments,is_cod,Int64,2,1.6082121746486257e-06,Low Cardinality
+shipments,insurance_opt,Int64,2,1.6082121746486257e-06,Low Cardinality
+shipments,fragility_flag,Int64,2,1.6082121746486257e-06,Low Cardinality
+scan_events,is_manual,Int64,2,2.9252121254137897e-07,Low Cardinality
+customers,tagihan_langganan,Int64,2,3.485285993855441e-06,Low Cardinality
+customers,is_business,Int64,2,3.485285993855441e-06,Low Cardinality
+invoices,is_penalty,Int64,2,1.362655870798421e-06,Low Cardinality
+customers,is_verified,Int64,2,3.485285993855441e-06,Low Cardinality
+couriers,sertifikasi_hazardous,Int64,2,8.401243384020835e-05,Low Cardinality
+service_packages,cod_allowed,Int64,2,0.03225806451612903,Low Cardinality
+service_packages,insurance_default,Int64,2,0.03225806451612903,Low Cardinality

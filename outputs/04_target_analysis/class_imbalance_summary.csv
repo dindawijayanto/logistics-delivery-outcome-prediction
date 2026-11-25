@@ -1,0 +1,10 @@
+Metric,Value
+Total Observations,1243617
+Number of Classes,7
+Majority Class,normal
+Majority Count,473531
+Majority Percentage,38.076915963676925
+Minority Class,klaim_hilang
+Minority Count,37656
+Minority Percentage,3.0279418824284328
+Imbalance Ratio,12.5752

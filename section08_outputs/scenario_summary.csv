@@ -1,0 +1,4 @@
+scenario,strict_features,inclusive_features,conditional_features,unavailable_features,unknown_features
+A - Saat shipment dibuat,12,78,66,50,34
+B - Saat dalam perjalanan,60,126,66,2,34
+C - Setelah percobaan pertama,60,128,68,0,34

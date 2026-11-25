@@ -1,0 +1,10 @@
+Table,Train Columns,Test Columns,Missing in Test,Extra in Test,Dtype Mismatch,Schema Consistent
+shipments,38,37,['status_penanganan'],[],[],False
+scan_events,8,8,[],[],[],True
+route_segments,8,8,[],[],[],True
+invoices,12,12,[],[],[],True
+customers,14,14,[],[],[],True
+couriers,11,11,[],[],[],True
+hubs,9,9,[],[],[],True
+service_packages,10,10,[],[],[],True
+promotions,6,6,[],[],[],True

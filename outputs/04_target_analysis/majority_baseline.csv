@@ -1,0 +1,8 @@
+Class,Precision,Recall,F1 Score,Support
+normal,0.3807691596367692,1.0,0.5515319588061134,473531
+konfirmasi_alamat,0.0,0.0,0.0,272911
+tertunda_operasional,0.0,0.0,0.0,185496
+gagal_antar_awal,0.0,0.0,0.0,124341
+retur_pengirim,0.0,0.0,0.0,87740
+rusak_perjalanan,0.0,0.0,0.0,61942
+klaim_hilang,0.0,0.0,0.0,37656

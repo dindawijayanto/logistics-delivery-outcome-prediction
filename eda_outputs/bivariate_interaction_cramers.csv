@@ -1,0 +1,5 @@
+Interaction,Cramers V,Number of Groups,Sample Size
+Distance × Fragility,0.07467578834642502,12,100000
+Declared Value × Insurance,0.07706837833124122,8,100000
+Address Notes × New Address,0.12054133174785692,8,100000
+Hub Load × Route Duration,0.10105160403457125,9,100000

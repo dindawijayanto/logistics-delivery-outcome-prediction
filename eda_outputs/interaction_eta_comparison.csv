@@ -1,0 +1,7 @@
+Interaction,Parent Features,Interaction Eta Squared,Strongest Parent Eta Squared,Additional Association
+x_distance_route_complexity,distance_km × rt_count,0.041105997932496995,0.03483081433923822,0.006275183593258772
+x_address_notes,jumlah_catatan × flag_alamat_baru,0.023150472297580188,0.06426712579206198,-0.04111665349448179
+x_hub_load_duration,r_hub_load × rt_duration_sum,0.022339694108553913,0.06470175812163316,-0.04236206401307925
+x_distance_fragility,distance_km × pkg_fragile_score,0.022164497597704218,0.03483081433923822,-0.012666316741534005
+x_value_insurance,log_declared_value × insurance_opt,0.00042956557531783506,0.044065921632230005,-0.04363635605691217
+x_weight_fragility,weight_kg × pkg_fragile_score,0.00039709127150024847,0.0021159365661616463,-0.0017188452946613978

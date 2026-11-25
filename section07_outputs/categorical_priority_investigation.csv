@@ -1,0 +1,2 @@
+Feature,PSI,Jensen-Shannon Distance,Unseen Category Count,Unseen Test Rows (%),Train Missing (%),Test Missing (%),Absolute Difference (%),Missing Shift Category,PSI Category
+customer_id,0.004946102934182651,0.7049382168366669,119259,70.592,0.0,0.0,0.0,Rendah,Rendah

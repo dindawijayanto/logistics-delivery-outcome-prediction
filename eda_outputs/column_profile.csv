@@ -1,0 +1,232 @@
+Split,Table,Category,Column,Data Type,Null Count,Blank Count,Missing Count,Missing Percentage,Approx Unique,Unique Ratio,Cardinality Group
+train,shipments,Main Transaction,shipment_id,String,0,0,0,0.0,1185380,0.953171273792494,Identifier Candidate
+train,shipments,Main Transaction,customer_id,String,0,0,0,0.0,544272,0.4376524283601784,Identifier Candidate
+train,shipments,Main Transaction,courier_id,String,0,0,0,0.0,26721,0.021486518759392965,Identifier Candidate
+train,shipments,Main Transaction,hub_id,String,0,0,0,0.0,669,0.0005379469724199653,Identifier Candidate
+train,shipments,Main Transaction,package_id,String,0,0,0,0.0,63,5.065868350143171e-05,Identifier Candidate
+train,shipments,Main Transaction,promo_id,String,0,0,0,0.0,38,3.055603131832389e-05,Identifier Candidate
+train,shipments,Main Transaction,weight_kg,Float64,0,0,0,0.0,3947,0.003173806726669063,Numerical / High Uniqueness
+train,shipments,Main Transaction,volume_l,Float64,37012,0,37012,2.976157450404747,1393,0.0011201197796427678,Numerical / High Uniqueness
+train,shipments,Main Transaction,declared_value,Int64,0,0,0,0.0,2730,0.002195209618395374,Numerical / High Uniqueness
+train,shipments,Main Transaction,distance_km,Float64,0,0,0,0.0,18020,0.014489991693584118,Numerical / High Uniqueness
+train,shipments,Main Transaction,ship_month,Int64,0,0,0,0.0,12,9.649273047891755e-06,Low Cardinality
+train,shipments,Main Transaction,ship_dow,Int64,0,0,0,0.0,7,5.6287426112701905e-06,Low Cardinality
+train,shipments,Main Transaction,ship_hour,Int64,0,0,0,0.0,24,1.929854609578351e-05,Numerical / High Uniqueness
+train,shipments,Main Transaction,is_cod,Int64,0,0,0,0.0,2,1.6082121746486257e-06,Low Cardinality
+train,shipments,Main Transaction,is_promo,Int64,0,0,0,0.0,2,1.6082121746486257e-06,Low Cardinality
+train,shipments,Main Transaction,channel,String,0,0,0,0.0,4,3.2164243492972513e-06,Low Cardinality
+train,shipments,Main Transaction,pickup_type,String,0,0,0,0.0,3,2.4123182619729387e-06,Low Cardinality
+train,shipments,Main Transaction,goods_category,String,0,0,0,0.0,5,4.020530436621564e-06,Low Cardinality
+train,shipments,Main Transaction,dest_region,String,0,0,0,0.0,7,5.6287426112701905e-06,Low Cardinality
+train,shipments,Main Transaction,insurance_opt,Int64,0,0,0,0.0,2,1.6082121746486257e-06,Low Cardinality
+train,shipments,Main Transaction,qty_items,Int64,0,0,0,0.0,18,1.4473909571837631e-05,Low Cardinality
+train,shipments,Main Transaction,coupon_count,Int64,0,0,0,0.0,6,4.8246365239458774e-06,Low Cardinality
+train,shipments,Main Transaction,gift_wrap,Int64,0,0,0,0.0,2,1.6082121746486257e-06,Low Cardinality
+train,shipments,Main Transaction,fragility_flag,Int64,0,0,0,0.0,2,1.6082121746486257e-06,Low Cardinality
+train,shipments,Main Transaction,order_to_ship_hours,Float64,0,0,0,0.0,750,0.0006030795654932347,Numerical / High Uniqueness
+train,shipments,Main Transaction,prioritas_pengiriman,Int64,0,0,0,0.0,3,2.4123182619729387e-06,Low Cardinality
+train,shipments,Main Transaction,jumlah_catatan,Int64,0,0,0,0.0,8,6.432848698594503e-06,Low Cardinality
+train,shipments,Main Transaction,flag_alamat_baru,Int64,0,0,0,0.0,2,1.6082121746486257e-06,Low Cardinality
+train,shipments,Main Transaction,berat_volumetrik,Float64,0,0,0,0.0,7976,0.00641355015249872,Numerical / High Uniqueness
+train,shipments,Main Transaction,kota_asal,String,0,0,0,0.0,46,3.698888001691839e-05,Medium Cardinality
+train,shipments,Main Transaction,kota_tujuan,String,0,0,0,0.0,46,3.698888001691839e-05,Medium Cardinality
+train,shipments,Main Transaction,skor_prioritas_kirim,Float64,0,0,0,0.0,8062,0.00648270327600861,Numerical / High Uniqueness
+train,shipments,Main Transaction,indeks_rute_sekunder,Float64,0,0,0,0.0,8349,0.006713481723070688,Numerical / High Uniqueness
+train,shipments,Main Transaction,faktor_muatan_internal,Float64,0,0,0,0.0,8570,0.006891189168369362,Numerical / High Uniqueness
+train,shipments,Main Transaction,varian_cuaca_rute,Float64,0,0,0,0.0,8349,0.006713481723070688,Numerical / High Uniqueness
+train,shipments,Main Transaction,indeks_waktu_proses,Float64,0,0,0,0.0,8265,0.006645936811735446,Numerical / High Uniqueness
+train,shipments,Main Transaction,skor_kualitas_cek,Float64,0,0,0,0.0,8245,0.006629854689988959,Numerical / High Uniqueness
+train,shipments,Main Transaction,status_penanganan,String,0,0,0,0.0,7,5.6287426112701905e-06,Low Cardinality
+train,scan_events,Operational Transaction,event_id,String,0,0,0,0.0,6227701,0.9108673239325791,Identifier Candidate
+train,scan_events,Operational Transaction,shipment_id,String,0,0,0,0.0,1185380,0.17337439746114988,Identifier Candidate
+train,scan_events,Operational Transaction,hub_id,String,0,0,0,0.0,669,9.784834559509126e-05,Identifier Candidate
+train,scan_events,Operational Transaction,event_type,String,0,0,0,0.0,6,8.775636376241369e-07,Low Cardinality
+train,scan_events,Operational Transaction,gap_hours,Float64,0,0,0,0.0,8792,0.001285923250331902,Numerical / High Uniqueness
+train,scan_events,Operational Transaction,device_type,String,0,0,0,0.0,4,5.850424250827579e-07,Low Cardinality
+train,scan_events,Operational Transaction,scan_quality,Int64,0,0,0,0.0,5,7.313030313534473e-07,Low Cardinality
+train,scan_events,Operational Transaction,is_manual,Int64,0,0,0,0.0,2,2.9252121254137897e-07,Low Cardinality
+train,route_segments,Operational Transaction,segment_id,String,0,0,0,0.0,2224001,1.0108415433870812,Identifier Candidate
+train,route_segments,Operational Transaction,shipment_id,String,0,0,0,0.0,1185380,0.5387728461903472,Identifier Candidate
+train,route_segments,Operational Transaction,urutan,Int64,0,0,0,0.0,3,1.363544634270058e-06,Low Cardinality
+train,route_segments,Operational Transaction,moda,String,0,0,0,0.0,4,1.8180595123600776e-06,Low Cardinality
+train,route_segments,Operational Transaction,jarak_segmen_km,Float64,0,0,0,0.0,17808,0.008094000949027066,Numerical / High Uniqueness
+train,route_segments,Operational Transaction,durasi_jam,Float64,43968,0,43968,1.9984110159861974,9928,0.004512423709677712,Numerical / High Uniqueness
+train,route_segments,Operational Transaction,segmen_hub_id,String,0,0,0,0.0,669,0.000304070453442223,Identifier Candidate
+train,route_segments,Operational Transaction,biaya_segmen,Int64,0,0,0,0.0,40310,0.018321494735808682,Numerical / High Uniqueness
+train,invoices,Operational Transaction,invoice_id,String,0,0,0,0.0,1316390,0.8968932808801667,Identifier Candidate
+train,invoices,Operational Transaction,shipment_id,String,0,0,0,0.0,1185380,0.8076325080635162,Identifier Candidate
+train,invoices,Operational Transaction,customer_id,String,0,0,0,0.0,544272,0.3708277180555991,Identifier Candidate
+train,invoices,Operational Transaction,invoice_type,String,0,0,0,0.0,3,2.0439838061976316e-06,Low Cardinality
+train,invoices,Operational Transaction,amount,Int64,0,0,0,0.0,140,9.538591095588947e-05,Numerical / High Uniqueness
+train,invoices,Operational Transaction,discount,Float64,622355,0,622355,42.402784723537565,231,0.0001573867530772176,Numerical / High Uniqueness
+train,invoices,Operational Transaction,tax,Int64,0,0,0,0.0,130,8.857263160189736e-05,Numerical / High Uniqueness
+train,invoices,Operational Transaction,payment_method,String,0,0,0,0.0,4,2.725311741596842e-06,Low Cardinality
+train,invoices,Operational Transaction,payment_status,String,0,0,0,0.0,3,2.0439838061976316e-06,Low Cardinality
+train,invoices,Operational Transaction,issued_month,Int64,0,0,0,0.0,12,8.175935224790526e-06,Low Cardinality
+train,invoices,Operational Transaction,days_to_pay,Int64,0,0,0,0.0,45,3.065975709296447e-05,Numerical / High Uniqueness
+train,invoices,Operational Transaction,is_penalty,Int64,0,0,0,0.0,2,1.362655870798421e-06,Low Cardinality
+train,customers,Master Data,customer_id,String,0,0,0,0.0,609833,1.0627212067454226,Identifier Candidate
+train,customers,Master Data,region,String,0,0,0,0.0,7,1.2198500978494043e-05,Low Cardinality
+train,customers,Master Data,segment,String,0,0,0,0.0,4,6.970571987710882e-06,Low Cardinality
+train,customers,Master Data,tenure_months,Int64,0,0,0,0.0,61,0.00010630122281259094,Numerical / High Uniqueness
+train,customers,Master Data,credit_score,Float64,11429,0,11429,1.9916666811886914,553406,0.9643890903577821,Numerical / High Uniqueness
+train,customers,Master Data,is_business,Int64,0,0,0,0.0,2,3.485285993855441e-06,Low Cardinality
+train,customers,Master Data,preferred_payment,String,0,0,0,0.0,4,6.970571987710882e-06,Low Cardinality
+train,customers,Master Data,loyalty_tier,String,0,0,0,0.0,4,6.970571987710882e-06,Low Cardinality
+train,customers,Master Data,address_quality,Int64,0,0,0,0.0,5,8.713214984638603e-06,Low Cardinality
+train,customers,Master Data,complaint_index,Float64,0,0,0,0.0,469436,0.8180593579057613,Numerical / High Uniqueness
+train,customers,Master Data,is_verified,Int64,0,0,0,0.0,2,3.485285993855441e-06,Low Cardinality
+train,customers,Master Data,kota_tipe,String,0,0,0,0.0,3,5.2279289907831615e-06,Low Cardinality
+train,customers,Master Data,metode_notifikasi,String,0,0,0,0.0,4,6.970571987710882e-06,Low Cardinality
+train,customers,Master Data,tagihan_langganan,Int64,0,0,0,0.0,2,3.485285993855441e-06,Low Cardinality
+train,couriers,Master Data,courier_id,String,0,0,0,0.0,26721,1.1224481223221037,Identifier Candidate
+train,couriers,Master Data,hub_id,String,0,0,0,0.0,669,0.028102159119549695,Identifier Candidate
+train,couriers,Master Data,vehicle_type,String,0,0,0,0.0,4,0.0001680248676804167,Low Cardinality
+train,couriers,Master Data,experience_years,Int64,0,0,0,0.0,9,0.00037805595228093756,Low Cardinality
+train,couriers,Master Data,contract_type,String,0,0,0,0.0,3,0.00012601865076031254,Low Cardinality
+train,couriers,Master Data,courier_score,Float64,256,0,256,1.075359153154667,6,0.0002520373015206251,Low Cardinality
+train,couriers,Master Data,shift_code,String,0,0,0,0.0,3,0.00012601865076031254,Low Cardinality
+train,couriers,Master Data,training_level,Int64,0,0,0,0.0,3,0.00012601865076031254,Low Cardinality
+train,couriers,Master Data,jarak_domisili_hub_km,Float64,0,0,0,0.0,423,0.017768629757204068,Numerical / High Uniqueness
+train,couriers,Master Data,kapasitas_muatan_kg,Int64,0,0,0,0.0,4,0.0001680248676804167,Low Cardinality
+train,couriers,Master Data,sertifikasi_hazardous,Int64,0,0,0,0.0,2,8.401243384020835e-05,Low Cardinality
+train,hubs,Master Data,hub_id,String,0,0,0,0.0,669,1.0229357798165137,Identifier Candidate
+train,hubs,Master Data,region,String,0,0,0,0.0,7,0.010703363914373088,Low Cardinality
+train,hubs,Master Data,hub_type,String,0,0,0,0.0,3,0.0045871559633027525,Low Cardinality
+train,hubs,Master Data,automation_level,Int64,0,0,0,0.0,5,0.00764525993883792,Low Cardinality
+train,hubs,Master Data,capacity_index,Float64,0,0,0,0.0,617,0.9434250764525994,Numerical / High Uniqueness
+train,hubs,Master Data,density_index,Float64,0,0,0,0.0,640,0.9785932721712538,Numerical / High Uniqueness
+train,hubs,Master Data,luas_gudang_m2,Float64,0,0,0,0.0,254,0.38837920489296635,Numerical / High Uniqueness
+train,hubs,Master Data,jam_buka,Int64,0,0,0,0.0,3,0.0045871559633027525,Low Cardinality
+train,hubs,Master Data,jam_tutup,Int64,0,0,0,0.0,3,0.0045871559633027525,Low Cardinality
+train,service_packages,Master Data,package_id,String,0,0,0,0.0,63,1.0161290322580645,Identifier Candidate
+train,service_packages,Master Data,speed_class,String,0,0,0,0.0,3,0.04838709677419355,Low Cardinality
+train,service_packages,Master Data,handling_class,String,0,0,0,0.0,3,0.04838709677419355,Low Cardinality
+train,service_packages,Master Data,insurance_default,Int64,0,0,0,0.0,2,0.03225806451612903,Low Cardinality
+train,service_packages,Master Data,cod_allowed,Int64,0,0,0,0.0,2,0.03225806451612903,Low Cardinality
+train,service_packages,Master Data,cost_multiplier,Float64,0,0,0,0.0,38,0.6129032258064516,Numerical / High Uniqueness
+train,service_packages,Master Data,max_weight_kg,Int64,0,0,0,0.0,5,0.08064516129032258,Low Cardinality
+train,service_packages,Master Data,fragile_score,Float64,0,0,0,0.0,40,0.6451612903225806,Numerical / High Uniqueness
+train,service_packages,Master Data,estimasi_hari,Int64,0,0,0,0.0,7,0.11290322580645161,Low Cardinality
+train,service_packages,Master Data,biaya_dasar,Int64,0,0,0,0.0,35,0.5645161290322581,Numerical / High Uniqueness
+train,promotions,Master Data,promo_id,String,0,0,0,0.0,36,1.0588235294117647,Identifier Candidate
+train,promotions,Master Data,nama_promo,String,0,0,0,0.0,19,0.5588235294117647,Low Cardinality
+train,promotions,Master Data,tipe_promo,String,0,0,0,0.0,4,0.11764705882352941,Low Cardinality
+train,promotions,Master Data,diskon_persen,Float64,0,0,0,0.0,32,0.9411764705882353,Numerical / High Uniqueness
+train,promotions,Master Data,bulan_mulai,Int64,0,0,0,0.0,10,0.29411764705882354,Low Cardinality
+train,promotions,Master Data,bulan_akhir,Int64,0,0,0,0.0,10,0.29411764705882354,Low Cardinality
+test,shipments,Main Transaction,shipment_id,String,0,0,0,0.0,340195,0.9391295946113818,Identifier Candidate
+test,shipments,Main Transaction,customer_id,String,0,0,0,0.0,275910,0.7616668276994851,Identifier Candidate
+test,shipments,Main Transaction,courier_id,String,0,0,0,0.0,26721,0.07376499330563568,Identifier Candidate
+test,shipments,Main Transaction,hub_id,String,0,0,0,0.0,669,0.0018468163811784842,Identifier Candidate
+test,shipments,Main Transaction,package_id,String,0,0,0,0.0,63,0.00017391544396748058,Identifier Candidate
+test,shipments,Main Transaction,promo_id,String,0,0,0,0.0,38,0.00010490137890102003,Identifier Candidate
+test,shipments,Main Transaction,weight_kg,Float64,0,0,0,0.0,3151,0.008698532760976686,Numerical / High Uniqueness
+test,shipments,Main Transaction,volume_l,Float64,11013,0,11013,3.04020759430772,1119,0.003089069552374774,Numerical / High Uniqueness
+test,shipments,Main Transaction,declared_value,Int64,0,0,0,0.0,2035,0.005617744896409888,Numerical / High Uniqueness
+test,shipments,Main Transaction,distance_km,Float64,0,0,0,0.0,17862,0.04930916920868473,Numerical / High Uniqueness
+test,shipments,Main Transaction,ship_month,Int64,0,0,0,0.0,12,3.312675123190106e-05,Low Cardinality
+test,shipments,Main Transaction,ship_dow,Int64,0,0,0,0.0,7,1.932393821860895e-05,Low Cardinality
+test,shipments,Main Transaction,ship_hour,Int64,0,0,0,0.0,24,6.625350246380212e-05,Numerical / High Uniqueness
+test,shipments,Main Transaction,is_cod,Int64,0,0,0,0.0,2,5.521125205316844e-06,Low Cardinality
+test,shipments,Main Transaction,is_promo,Int64,0,0,0,0.0,2,5.521125205316844e-06,Low Cardinality
+test,shipments,Main Transaction,channel,String,0,0,0,0.0,4,1.1042250410633688e-05,Low Cardinality
+test,shipments,Main Transaction,pickup_type,String,0,0,0,0.0,3,8.281687807975265e-06,Low Cardinality
+test,shipments,Main Transaction,goods_category,String,0,0,0,0.0,5,1.3802813013292109e-05,Low Cardinality
+test,shipments,Main Transaction,dest_region,String,0,0,0,0.0,7,1.932393821860895e-05,Low Cardinality
+test,shipments,Main Transaction,insurance_opt,Int64,0,0,0,0.0,2,5.521125205316844e-06,Low Cardinality
+test,shipments,Main Transaction,qty_items,Int64,0,0,0,0.0,17,4.692956424519317e-05,Low Cardinality
+test,shipments,Main Transaction,coupon_count,Int64,0,0,0,0.0,6,1.656337561595053e-05,Low Cardinality
+test,shipments,Main Transaction,gift_wrap,Int64,0,0,0,0.0,2,5.521125205316844e-06,Low Cardinality
+test,shipments,Main Transaction,fragility_flag,Int64,0,0,0,0.0,2,5.521125205316844e-06,Low Cardinality
+test,shipments,Main Transaction,order_to_ship_hours,Float64,0,0,0,0.0,628,0.001733633314469489,Numerical / High Uniqueness
+test,shipments,Main Transaction,prioritas_pengiriman,Int64,0,0,0,0.0,3,8.281687807975265e-06,Low Cardinality
+test,shipments,Main Transaction,jumlah_catatan,Int64,0,0,0,0.0,8,2.2084500821267376e-05,Low Cardinality
+test,shipments,Main Transaction,flag_alamat_baru,Int64,0,0,0,0.0,2,5.521125205316844e-06,Low Cardinality
+test,shipments,Main Transaction,berat_volumetrik,Float64,0,0,0,0.0,5824,0.01607751659788265,Numerical / High Uniqueness
+test,shipments,Main Transaction,kota_asal,String,0,0,0,0.0,46,0.0001269858797222874,Medium Cardinality
+test,shipments,Main Transaction,kota_tujuan,String,0,0,0,0.0,46,0.0001269858797222874,Medium Cardinality
+test,shipments,Main Transaction,skor_prioritas_kirim,Float64,0,0,0,0.0,7588,0.020947149028972104,Numerical / High Uniqueness
+test,shipments,Main Transaction,indeks_rute_sekunder,Float64,0,0,0,0.0,7350,0.0202901351295394,Numerical / High Uniqueness
+test,shipments,Main Transaction,faktor_muatan_internal,Float64,0,0,0,0.0,7019,0.019376388908059462,Numerical / High Uniqueness
+test,shipments,Main Transaction,varian_cuaca_rute,Float64,0,0,0,0.0,7603,0.02098855746801198,Numerical / High Uniqueness
+test,shipments,Main Transaction,indeks_waktu_proses,Float64,0,0,0,0.0,7460,0.020593797015831826,Numerical / High Uniqueness
+test,shipments,Main Transaction,skor_kualitas_cek,Float64,0,0,0,0.0,7309,0.020176952062830406,Numerical / High Uniqueness
+test,scan_events,Operational Transaction,event_id,String,0,0,0,0.0,2011075,1.0090024142906742,Identifier Candidate
+test,scan_events,Operational Transaction,shipment_id,String,0,0,0,0.0,340195,0.17068362757709976,Identifier Candidate
+test,scan_events,Operational Transaction,hub_id,String,0,0,0,0.0,669,0.0003356526311353187,Identifier Candidate
+test,scan_events,Operational Transaction,event_type,String,0,0,0,0.0,6,3.010337498971468e-06,Low Cardinality
+test,scan_events,Operational Transaction,gap_hours,Float64,0,0,0,0.0,7154,0.0035893257446069802,Numerical / High Uniqueness
+test,scan_events,Operational Transaction,device_type,String,0,0,0,0.0,4,2.006891665980979e-06,Low Cardinality
+test,scan_events,Operational Transaction,scan_quality,Int64,0,0,0,0.0,5,2.5086145824762233e-06,Low Cardinality
+test,scan_events,Operational Transaction,is_manual,Int64,0,0,0,0.0,2,1.0034458329904894e-06,Low Cardinality
+test,route_segments,Operational Transaction,segment_id,String,0,0,0,0.0,627489,0.9782413484533382,Identifier Candidate
+test,route_segments,Operational Transaction,shipment_id,String,0,0,0,0.0,340195,0.5303564134782974,Identifier Candidate
+test,route_segments,Operational Transaction,urutan,Int64,0,0,0,0.0,3,4.676933054380259e-06,Low Cardinality
+test,route_segments,Operational Transaction,moda,String,0,0,0,0.0,4,6.23591073917368e-06,Low Cardinality
+test,route_segments,Operational Transaction,jarak_segmen_km,Float64,0,0,0,0.0,17533,0.02733355574748303,Numerical / High Uniqueness
+test,route_segments,Operational Transaction,durasi_jam,Float64,12824,0,12824,1.9992329829790816,9237,0.01440027687443682,Numerical / High Uniqueness
+test,route_segments,Operational Transaction,segmen_hub_id,String,0,0,0,0.0,669,0.0010429560711267979,Identifier Candidate
+test,route_segments,Operational Transaction,biaya_segmen,Int64,0,0,0,0.0,35370,0.05514104071114326,Numerical / High Uniqueness
+test,invoices,Operational Transaction,invoice_id,String,0,0,0,0.0,505417,1.182378151771636,Identifier Candidate
+test,invoices,Operational Transaction,shipment_id,String,0,0,0,0.0,340195,0.7958559671359525,Identifier Candidate
+test,invoices,Operational Transaction,customer_id,String,0,0,0,0.0,275910,0.6454669230661257,Identifier Candidate
+test,invoices,Operational Transaction,invoice_type,String,0,0,0,0.0,3,7.018233370296029e-06,Low Cardinality
+test,invoices,Operational Transaction,amount,Int64,0,0,0,0.0,112,0.00026201404582438506,Numerical / High Uniqueness
+test,invoices,Operational Transaction,discount,Float64,181088,0,181088,42.36392815200558,177,0.0004140757688474657,Numerical / High Uniqueness
+test,invoices,Operational Transaction,tax,Int64,0,0,0,0.0,106,0.00024797757908379304,Numerical / High Uniqueness
+test,invoices,Operational Transaction,payment_method,String,0,0,0,0.0,4,9.35764449372804e-06,Low Cardinality
+test,invoices,Operational Transaction,payment_status,String,0,0,0,0.0,3,7.018233370296029e-06,Low Cardinality
+test,invoices,Operational Transaction,issued_month,Int64,0,0,0,0.0,12,2.8072933481184117e-05,Low Cardinality
+test,invoices,Operational Transaction,days_to_pay,Int64,0,0,0,0.0,45,0.00010527350055444043,Numerical / High Uniqueness
+test,invoices,Operational Transaction,is_penalty,Int64,0,0,0,0.0,2,4.67882224686402e-06,Low Cardinality
+test,customers,Master Data,customer_id,String,0,0,0,0.0,609833,1.0627212067454226,Identifier Candidate
+test,customers,Master Data,region,String,0,0,0,0.0,7,1.2198500978494043e-05,Low Cardinality
+test,customers,Master Data,segment,String,0,0,0,0.0,4,6.970571987710882e-06,Low Cardinality
+test,customers,Master Data,tenure_months,Int64,0,0,0,0.0,61,0.00010630122281259094,Numerical / High Uniqueness
+test,customers,Master Data,credit_score,Float64,11429,0,11429,1.9916666811886914,553406,0.9643890903577821,Numerical / High Uniqueness
+test,customers,Master Data,is_business,Int64,0,0,0,0.0,2,3.485285993855441e-06,Low Cardinality
+test,customers,Master Data,preferred_payment,String,0,0,0,0.0,4,6.970571987710882e-06,Low Cardinality
+test,customers,Master Data,loyalty_tier,String,0,0,0,0.0,4,6.970571987710882e-06,Low Cardinality
+test,customers,Master Data,address_quality,Int64,0,0,0,0.0,5,8.713214984638603e-06,Low Cardinality
+test,customers,Master Data,complaint_index,Float64,0,0,0,0.0,469436,0.8180593579057613,Numerical / High Uniqueness
+test,customers,Master Data,is_verified,Int64,0,0,0,0.0,2,3.485285993855441e-06,Low Cardinality
+test,customers,Master Data,kota_tipe,String,0,0,0,0.0,3,5.2279289907831615e-06,Low Cardinality
+test,customers,Master Data,metode_notifikasi,String,0,0,0,0.0,4,6.970571987710882e-06,Low Cardinality
+test,customers,Master Data,tagihan_langganan,Int64,0,0,0,0.0,2,3.485285993855441e-06,Low Cardinality
+test,couriers,Master Data,courier_id,String,0,0,0,0.0,26721,1.1224481223221037,Identifier Candidate
+test,couriers,Master Data,hub_id,String,0,0,0,0.0,669,0.028102159119549695,Identifier Candidate
+test,couriers,Master Data,vehicle_type,String,0,0,0,0.0,4,0.0001680248676804167,Low Cardinality
+test,couriers,Master Data,experience_years,Int64,0,0,0,0.0,9,0.00037805595228093756,Low Cardinality
+test,couriers,Master Data,contract_type,String,0,0,0,0.0,3,0.00012601865076031254,Low Cardinality
+test,couriers,Master Data,courier_score,Float64,256,0,256,1.075359153154667,6,0.0002520373015206251,Low Cardinality
+test,couriers,Master Data,shift_code,String,0,0,0,0.0,3,0.00012601865076031254,Low Cardinality
+test,couriers,Master Data,training_level,Int64,0,0,0,0.0,3,0.00012601865076031254,Low Cardinality
+test,couriers,Master Data,jarak_domisili_hub_km,Float64,0,0,0,0.0,423,0.017768629757204068,Numerical / High Uniqueness
+test,couriers,Master Data,kapasitas_muatan_kg,Int64,0,0,0,0.0,4,0.0001680248676804167,Low Cardinality
+test,couriers,Master Data,sertifikasi_hazardous,Int64,0,0,0,0.0,2,8.401243384020835e-05,Low Cardinality
+test,hubs,Master Data,hub_id,String,0,0,0,0.0,669,1.0229357798165137,Identifier Candidate
+test,hubs,Master Data,region,String,0,0,0,0.0,7,0.010703363914373088,Low Cardinality
+test,hubs,Master Data,hub_type,String,0,0,0,0.0,3,0.0045871559633027525,Low Cardinality
+test,hubs,Master Data,automation_level,Int64,0,0,0,0.0,5,0.00764525993883792,Low Cardinality
+test,hubs,Master Data,capacity_index,Float64,0,0,0,0.0,617,0.9434250764525994,Numerical / High Uniqueness
+test,hubs,Master Data,density_index,Float64,0,0,0,0.0,640,0.9785932721712538,Numerical / High Uniqueness
+test,hubs,Master Data,luas_gudang_m2,Float64,0,0,0,0.0,254,0.38837920489296635,Numerical / High Uniqueness
+test,hubs,Master Data,jam_buka,Int64,0,0,0,0.0,3,0.0045871559633027525,Low Cardinality
+test,hubs,Master Data,jam_tutup,Int64,0,0,0,0.0,3,0.0045871559633027525,Low Cardinality
+test,service_packages,Master Data,package_id,String,0,0,0,0.0,63,1.0161290322580645,Identifier Candidate
+test,service_packages,Master Data,speed_class,String,0,0,0,0.0,3,0.04838709677419355,Low Cardinality
+test,service_packages,Master Data,handling_class,String,0,0,0,0.0,3,0.04838709677419355,Low Cardinality
+test,service_packages,Master Data,insurance_default,Int64,0,0,0,0.0,2,0.03225806451612903,Low Cardinality
+test,service_packages,Master Data,cod_allowed,Int64,0,0,0,0.0,2,0.03225806451612903,Low Cardinality
+test,service_packages,Master Data,cost_multiplier,Float64,0,0,0,0.0,38,0.6129032258064516,Numerical / High Uniqueness
+test,service_packages,Master Data,max_weight_kg,Int64,0,0,0,0.0,5,0.08064516129032258,Low Cardinality
+test,service_packages,Master Data,fragile_score,Float64,0,0,0,0.0,40,0.6451612903225806,Numerical / High Uniqueness
+test,service_packages,Master Data,estimasi_hari,Int64,0,0,0,0.0,7,0.11290322580645161,Low Cardinality
+test,service_packages,Master Data,biaya_dasar,Int64,0,0,0,0.0,35,0.5645161290322581,Numerical / High Uniqueness
+test,promotions,Master Data,promo_id,String,0,0,0,0.0,36,1.0588235294117647,Identifier Candidate
+test,promotions,Master Data,nama_promo,String,0,0,0,0.0,19,0.5588235294117647,Low Cardinality
+test,promotions,Master Data,tipe_promo,String,0,0,0,0.0,4,0.11764705882352941,Low Cardinality
+test,promotions,Master Data,diskon_persen,Float64,0,0,0,0.0,32,0.9411764705882353,Numerical / High Uniqueness
+test,promotions,Master Data,bulan_mulai,Int64,0,0,0,0.0,10,0.29411764705882354,Low Cardinality
+test,promotions,Master Data,bulan_akhir,Int64,0,0,0,0.0,10,0.29411764705882354,Low Cardinality

@@ -1,0 +1,5 @@
+Analysis,Total Checks,Passed,Failed
+Primary Key Validation,20,20,0
+Foreign Key Integrity,24,22,2
+Full Row Duplicate Detection,18,18,0
+One-to-Many Coverage,6,6,0

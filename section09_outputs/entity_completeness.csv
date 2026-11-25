@@ -1,0 +1,4 @@
+entity,missing_train,missing_train_pct,missing_test,missing_test_pct,unique_train,unique_test,unique_combined
+customer_id,0,0.0,0,0.0,508086,268812,538977
+courier_id,0,0.0,0,0.0,23806,23806,23806
+hub_id,0,0.0,0,0.0,654,654,654

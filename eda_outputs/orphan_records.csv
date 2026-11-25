@@ -1,0 +1,3 @@
+Split,Child Table,Foreign Key,Parent Table,Referenced Key,Total Records,Null References,Orphan Rows,Unique Orphan Keys,Valid
+train,shipments,promo_id,promotions,promo_id,1243617,0,1032408,1,False
+test,shipments,promo_id,promotions,promo_id,362245,0,300502,1,False

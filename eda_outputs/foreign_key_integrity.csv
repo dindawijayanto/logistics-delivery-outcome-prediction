@@ -1,0 +1,25 @@
+Split,Child Table,Foreign Key,Parent Table,Referenced Key,Total Records,Null References,Orphan Rows,Unique Orphan Keys,Valid
+train,shipments,customer_id,customers,customer_id,1243617,0,0,0,True
+train,shipments,courier_id,couriers,courier_id,1243617,0,0,0,True
+train,shipments,hub_id,hubs,hub_id,1243617,0,0,0,True
+train,shipments,package_id,service_packages,package_id,1243617,0,0,0,True
+train,shipments,promo_id,promotions,promo_id,1243617,0,1032408,1,False
+train,scan_events,shipment_id,shipments,shipment_id,6837111,0,0,0,True
+train,scan_events,hub_id,hubs,hub_id,6837111,0,0,0,True
+train,route_segments,shipment_id,shipments,shipment_id,2200148,0,0,0,True
+train,route_segments,segmen_hub_id,hubs,hub_id,2200148,0,0,0,True
+train,invoices,shipment_id,shipments,shipment_id,1467722,0,0,0,True
+train,invoices,customer_id,customers,customer_id,1467722,0,0,0,True
+train,couriers,hub_id,hubs,hub_id,23806,0,0,0,True
+test,shipments,customer_id,customers,customer_id,362245,0,0,0,True
+test,shipments,courier_id,couriers,courier_id,362245,0,0,0,True
+test,shipments,hub_id,hubs,hub_id,362245,0,0,0,True
+test,shipments,package_id,service_packages,package_id,362245,0,0,0,True
+test,shipments,promo_id,promotions,promo_id,362245,0,300502,1,False
+test,scan_events,shipment_id,shipments,shipment_id,1993132,0,0,0,True
+test,scan_events,hub_id,hubs,hub_id,1993132,0,0,0,True
+test,route_segments,shipment_id,shipments,shipment_id,641446,0,0,0,True
+test,route_segments,segmen_hub_id,hubs,hub_id,641446,0,0,0,True
+test,invoices,shipment_id,shipments,shipment_id,427458,0,0,0,True
+test,invoices,customer_id,customers,customer_id,427458,0,0,0,True
+test,couriers,hub_id,hubs,hub_id,23806,0,0,0,True

@@ -1,0 +1,13 @@
+feature
+declared_value
+distance_km
+flag_alamat_baru
+is_cod
+package_id
+promo_id
+qty_items
+ship_dow
+ship_hour
+ship_month
+volume_l
+weight_kg

@@ -1,0 +1,4 @@
+Method,Total Features,Top Feature,Top Score
+Eta-squared,127,cust_address_quality,0.30741097716723675
+Cramer's V,34,hub_id,0.22831765088756725
+Mutual Information,64,cust_address_quality,0.18171005765343207

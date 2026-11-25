@@ -1,0 +1,3 @@
+table,sequence_columns
+scan_events,['event_id']
+route_segments,['urutan']

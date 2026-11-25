@@ -1,0 +1,8 @@
+table,time_columns,has_time_column
+shipments,['indeks_waktu_proses'],True
+scan_events,[],False
+route_segments,[],False
+invoices,[],False
+customers,[],False
+couriers,[],False
+hubs,[],False
